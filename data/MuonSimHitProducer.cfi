@@ -10,7 +10,7 @@ module MuonSimHits = MuonSimHitProducer
 	// What is to be produced // Dummy, for now:
 	untracked bool ProduceL1Muons = false 
 	untracked bool ProduceL3Muons = false 
-	untracked bool ProduceGlobalMuons = false
+	untracked bool ProduceGlobalMuons = true
 
 	// The muon simtrack's must be taken from there
 	string simModuleLabel = "famosSimHits"
