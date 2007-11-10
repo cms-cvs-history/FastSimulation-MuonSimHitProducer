@@ -1,6 +1,7 @@
 module MuonSimHits = MuonSimHitProducer
 {
     
+    using MuonServiceProxy
     # Muons
     PSet MUONS =
     {	
@@ -22,7 +23,16 @@ module MuonSimHits = MuonSimHitProducer
 	// Simulate  only simtracks in this eta range
 	double MinEta = -2.4
 	double MaxEta =  2.4
+
+
     }
+
+        PSet MuonTrajectoryUpdatorParameters = {
+                double MaxChi2 = 1000 #25.0
+                int32 Granularity = 0
+                bool RescaleError = false
+                double RescaleErrorFactor = 100.                
+            }   
 
     PSet TRACKS = 
     { 
