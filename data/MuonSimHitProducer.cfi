@@ -1,5 +1,9 @@
 module MuonSimHits = MuonSimHitProducer
 {
+
+    # Set the following to false if you want to use the default CLHEP
+    # random engine
+    bool UseTRandomEngine = true
     
     using MuonServiceProxy
     # Muons
