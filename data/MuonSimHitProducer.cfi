@@ -22,7 +22,7 @@ module MuonSimHits = MuonSimHitProducer
 	string simModuleProcess = "MuonSimTracks"
 
 	// The reconstruted tracks must be taken from there
-	string trackModuleLabel = "gsWithMaterialTracks"
+	string trackModuleLabel = "ctfGSWithMaterialTracks"
 	
 	// Simulate  only simtracks in this eta range
 	double MinEta = -2.4
