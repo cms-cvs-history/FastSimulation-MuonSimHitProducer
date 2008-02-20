@@ -1,3 +1,5 @@
+include "RecoMuon/TrackingTools/data/MuonServiceProxy.cff"
+
 module MuonSimHits = MuonSimHitProducer
 {
 
