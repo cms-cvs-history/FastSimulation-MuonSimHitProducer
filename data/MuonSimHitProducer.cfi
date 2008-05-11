@@ -3,10 +3,6 @@ include "RecoMuon/TrackingTools/data/MuonServiceProxy.cff"
 module MuonSimHits = MuonSimHitProducer
 {
 
-    # Set the following to false if you want to use the default CLHEP
-    # random engine
-    bool UseTRandomEngine = true
-    
     using MuonServiceProxy
     # Muons
     PSet MUONS =
