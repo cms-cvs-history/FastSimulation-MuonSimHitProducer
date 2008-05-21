@@ -1,9 +1,15 @@
 include "RecoMuon/TrackingTools/data/MuonServiceProxy.cff"
+include "FastSimulation/MaterialEffects/data/MaterialEffects.cfi"
 
 module MuonSimHits = MuonSimHitProducer
 {
 
+    # Services
     using MuonServiceProxy
+
+    # Material effects (Multiple scattering)
+    using MaterialEffectsForMuonsBlock
+
     # Muons
     PSet MUONS =
     {	
