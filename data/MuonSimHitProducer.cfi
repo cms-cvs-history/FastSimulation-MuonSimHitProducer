@@ -13,8 +13,6 @@ module MuonSimHits = MuonSimHitProducer
     # Muons
     PSet MUONS =
     {	
-	// Debug level
-	untracked bool Debug = false 
 	
 	// What is to be produced // Dummy, for now:
 	untracked bool ProduceL1Muons = false 
